@@ -1,0 +1,17 @@
+﻿<Application x:Class="RM_GravitationalPull_FinalProject.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:RM_GravitationalPull_FinalProject"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="TextBox">
+           <Setter Property="Background" Value="#FFF4F4B0" />
+        </Style>
+        <Style TargetType="GroupBox">
+           <Setter Property="Background" Value="#FF8CDADA" />
+        </Style>
+        <Style TargetType="StackPanel">
+            <Setter Property="Background" Value="#FF8CDADA" />
+        </Style>
+    </Application.Resources>
+</Application>
